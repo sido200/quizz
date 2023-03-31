@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    font-weight: 100;
+}
+.tete{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    font-family: 'Inter', sans-serif;
+}
+.nbrqst{
+    display: flex;
+}
+.reponse-continer{
+    margin-top: 70px;
+}
+.qst-continer{
+    display: none;
+  
+    
+}
+.bas{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin:40px 100px 40px 40px;
+}
+.qstc{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+    margin-left: 100px;
+
+    
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.startscreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    font-family: 'Inter', sans-serif;
+}
+.activeqst{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.active{
+    display: none;
+}
+.qst-continer button{
+    margin-left: 300px;
+    font-family: 'Inter', sans-serif;
+    
+}
+.rpq{
+    display: flex;
+   
+    align-items: center;
+    width: 600px;
+   
+}
+
+button{
+    background-color:  #32729A;
+    height: 60px;
+    width: 350px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+  
+  }
+  .rp{
+    margin-right: 10px;
+  }
+  .view{
+    margin-top: 10px;
+  }
+  .qstview{
+    color: #32729A;
+  }
+  .span{
+color: #2251C9;
+  }
+  
