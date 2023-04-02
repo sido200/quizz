@@ -102,4 +102,9 @@ button{
   .span{
 color: #2251C9;
   }
-  
+  .back{
+  position: fixed;
+  font-size: 30px;
+  left: 20px;
+  top: 15px;
+  }

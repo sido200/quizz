@@ -45,6 +45,7 @@ const score=document.querySelector(".score")
 const view=document.querySelector(".view")
 const viewc=document.querySelector(".viewrslt")
 const maxscore=document.querySelector(".maxscore")
+const back=document.querySelector(".back")
 let nums = [0, 1, 2,3,4];
 // Fonction qui renvoie un nombre aléatoire unique
 function getUniqueRandomNum() {
@@ -243,6 +244,9 @@ nxt.addEventListener("click",next);
 // solution
 function solution(){
     start.classList.add("active")
+    back.classList.remove("active")
+    viewc.classList.remove("active")
+
     qsts.forEach((qst)=>{
     viewc.innerHTML+=`
     <div class="qstc">
@@ -264,6 +268,13 @@ view.classList.add("active")
 console.log(qsts);
 }
 view.addEventListener('click',solution)
-
+function backb() {
+    start.classList.remove("active")
+    score.classList.remove("active")
+view.classList.remove("active")
+back.classList.add("active")
+viewc.classList.add("active")
+}
+back.addEventListener("click",backb)
 
 
